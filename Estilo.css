@@ -1,0 +1,96 @@
+*{
+   margin: 0;
+   padding: 0;
+ }
+body{
+   background-image: linear-gradient(to right,rgb(37, 37, 218),rgb(83, 15, 128),rgb(253, 0, 253));   background-size: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+ }
+ main{
+   justify-content: center;
+   align-items: center;
+   max-width: 800px;
+   max-height: 900px;
+   padding: 30px;
+   margin: 30px;
+   background-color: rgb(40, 20, 48);
+   font-family:'Cinzel', serifa;
+   border: 10px ridge rgb(246, 148, 255);
+   color: white;
+}
+h1{ 
+   background-image: linear-gradient(to right, rgb(228, 127, 228), rgb(204, 44, 204));
+   background-clip: text;
+   -webkit-background-clip: text; 
+   -webkit-text-fill-color: transparent;
+   color: black;
+   margin: 25px; ;
+   font-family: 'Press Start 2P', cursive; 
+}
+#code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    font-size: medium;
+    margin-bottom: 15px;
+}
+#code:focus{
+    background-color: thistle;
+}
+#msg{
+    border: 5px ridge rgb(240, 114, 240);
+}
+#msg:focus{
+    background-color: thistle;
+}
+.radio{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.2s all linear;
+    position: relative;
+    margin-top: 10px;
+}
+.radio:checked {
+    border: 6px solid rgb(182, 85, 182);
+}
+button{
+    margin: 20px 60px 20px;
+    padding: 12px;
+    font-size: 20px; 
+    background-color: rgb(228, 127, 228);
+    box-shadow: 2px 2px 2px rgb(245, 207, 255);
+    border-radius: 10px;
+}
+button:hover{
+   font-size: 25px;
+   text-decoration: underline;
+   background-color: rgb(241, 72, 241);
+}
+#exibeMensagem{
+   border: 3px solid violet;
+   border-radius: 5px;
+   width: 300px;
+   height: 100%;
+   word-wrap: break-word;
+   background-color: rgb(40, 20, 48);
+   padding: 45px;
+   margin: 15px 0 25px;
+   font-size: 25px;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+}
+footer, a{
+    color: black;
+}
