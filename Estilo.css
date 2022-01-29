@@ -94,3 +94,38 @@ footer{
 footer, a{
     color: black;
 }
+@media (max-width: 400px) {
+    body{
+        background-repeat: no-repeat;
+    }
+    main{
+        justify-content: center;
+        align-items: center;
+        max-width: 200px;
+        max-height: auto;
+        background-color: rgb(40, 20, 48);
+        font-family:'Cinzel', serifa;
+        border: 7px ridge rgb(246, 148, 255);
+        color: white;
+     }
+     h1{
+         margin: 0;
+         margin-bottom: 10px;
+         font-size: 17px;
+     }
+    #code{
+        font-size: 13px;
+        padding: 5px;
+    }
+    #msg{
+        width: 200px;
+    }
+    .radio{
+       display: flex;
+       flex-direction: column;
+}
+#exibeMensagem{
+    width: 100px;
+   height: 100%;
+}
+}
