@@ -1,4 +1,4 @@
-//DECLARANDO VARIAVEIS
+//Declarando constantes
 
 const divRetorno = document.getElementById('exibeMensagem')
 const code = document.getElementById('code'); 
